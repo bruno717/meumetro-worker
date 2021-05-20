@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="meumetro-scheduler">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/meumetro-scheduler.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
