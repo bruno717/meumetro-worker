@@ -14,7 +14,7 @@ public class CallNotificationService {
 
     public static void callNotification() {
         LocalDateTime dateTime = LocalDateTime.now(DateTimeZone.forID("America/Sao_Paulo"));
-        if (dateTime.hourOfDay().get() >= 1 && dateTime.hourOfDay().get() <= 4) {
+        if (dateTime.hourOfDay().get() >= 1 && dateTime.hourOfDay().get() <= 6) {
             System.out.println("Hora fora de serviço: " + dateTime.hourOfDay().get());
         } else {
             callNotificationStatusOfficial(dateTime);
